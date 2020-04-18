@@ -2,7 +2,7 @@
 This is my emacs configuration setup
 
 # Requirements
-This emacs configuration is for emacs 24 or higher.
+This emacs configuration is for emacs 26.
 
 # Installation
 Just clone repository as ~/.emacs.d. When you start your emacs, emacs will download dependencies
