@@ -8,6 +8,6 @@ This emacs configuration is for emacs 24 or higher.
 Just clone repository as ~/.emacs.d. When you start your emacs, emacs will download dependencies
 
 ```
-$ git clone git@github.com:coder-trev/emacs-config.git .emacs.d
+$ git clone git@github.com:coder-trev/emacs-config-26.git .emacs.d
 $ emacs &
 ```
