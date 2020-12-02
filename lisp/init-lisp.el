@@ -11,9 +11,11 @@
 (dolist (hook '(emacs-lisp-mode-hook
 		lisp-interaction-mode-hook
 		ielm-mode-hook
-		lisp-mode-hook))
+		lisp-mode-hook
+		scheme-mode-hook))
   (dolist (mode '(rainbow-delimiters-mode
-		  turn-on-eldoc-mode))
+		  turn-on-eldoc-mode
+		  paredit-mode))
     (add-hook hook mode)))
 
 (defun check-parens-after-save ()

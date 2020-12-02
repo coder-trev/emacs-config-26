@@ -49,8 +49,9 @@
  '(ido-enable-flex-matching t)
  '(ido-use-virtual-buffers t)
  '(package-selected-packages (quote (flycheck use-package)))
- '(recentf-max-menu-items 40)
- '(recentf-save-file "/home/skeltont/.emacs.d/.recentf")
+ '(python-shell-interpreter "python3")
+ '(recentf-max-menu-items 40 t)
+ '(recentf-save-file "/home/skeltont/.emacs.d/.recentf" t)
  '(save-place-file "/home/skeltont/.emacs.d/saveplace")
  '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
 (custom-set-faces

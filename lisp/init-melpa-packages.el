@@ -14,6 +14,8 @@
 (use-package flycheck
   :config (global-flycheck-mode t))
 
+(use-package paredit)
+
 (use-package rainbow-delimiters)
 
 (use-package fringe-helper)
@@ -35,7 +37,11 @@
 	 ("C-c C-<" . mc/mark-all-like-this)
 	 ("C-S-<mouse-1>" . mc/add-cursor-on-click)))
 
-(message "init-mepla-packages")
+(use-package haskell-mode
+  :init
+  (add-hook 'haskell-mode 'interactive-haskell-mode))
+
+(message "init-melpa-packages")
 (provide 'init-melpa-packages)
 
 ;;; init-melpa-packages.el ends here
